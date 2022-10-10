@@ -35,6 +35,7 @@ public class NthFibonacci
 	   {
 		    Scanner console = new Scanner(System.in);
 			int nTH = 0;
+		   	System.out.println("Welcome to the new Fibonacci Calculator!\n")
 			System.out.println("Please enter the degree of Fibonacci to be calculated:");
 			nTH = console.nextInt();
 			System.out.print("\nFibonacci Series of "+ nTH +" degrees: ");
